@@ -1,6 +1,7 @@
 # Unique ID Generator
 
 This package provides a simple and efficient way to generate unique IDs using timestamps, collision handling, and SHA-256 hashing.
+**This library can generate billions of unique IDs, and we guarantee that every ID generated will be 100% unique. Using the v1 method provided by Crypt-uniid, you can generate millions or even billions of IDs in an hour, a minute, a second, or even a nanosecond, depending on your machine's performance. You can be completely confident that every generated ID will be unique. This library is very lightweight and runs everything in less than 85 lines of JS code. No other dependencies are needed.**
 
 [![npm version](https://badge.fury.io/js/crypt-uniid.svg)](https://www.npmjs.com/package/crypt-uniid) 
 
