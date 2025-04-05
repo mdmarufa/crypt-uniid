@@ -1,6 +1,6 @@
 {
   "name": "crypt-uniid",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A secure, efficient, and machine-aware unique ID generator using timestamp, counter, and SHA-256 hashing.",
   "main": "lib/index.js",
   "exports": {
@@ -27,9 +27,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mdMarufAli7768/crypt-uniid"
+    "url": "https://github.com/mdmarufa/crypt-uniid"
   },
-  "homepage": "https://github.com/mdMarufAli7768/crypt-uniid#readme",
+  "homepage": "https://github.com/mdmarufa/crypt-uniid#readme",
   "engines": {
     "node": ">=14"
   }
