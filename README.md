@@ -47,7 +47,6 @@ Example .env file:
 1. **Once installed and configured, you can import the package and start generating unique IDs.
 ## Use
 ```
-    require("dotenv").config();
     const { v1 } = require("crypt-uniid");
 
     const uniqueId = v1();
