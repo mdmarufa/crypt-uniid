@@ -26,6 +26,7 @@ To get started, you need to install the package:
 
 ```bash
 npm install crypt-uniid
+```
 
 ## Note
 #======================== Configuration ====================
