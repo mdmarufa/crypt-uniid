@@ -1,0 +1,39 @@
+{
+  "name": "crypt-uniid",
+  "version": "1.0.0",
+  "description": "A secure, efficient, and machine-aware unique ID generator using timestamp, counter, and SHA-256 hashing.",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "uuid",
+    "unique-id",
+    "secure-id",
+    "sha256",
+    "hash-id",
+    "cuid",
+    "cryptuniid",
+    "id-generator",
+    "distributed-system",
+    "timestamp-id"
+  ],
+  "author": "MD Maruf Ali",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdMarufAli7768/crypt-uniid"
+  },
+  "homepage": "https://github.com/mdMarufAli7768/crypt-uniid#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
