@@ -12,7 +12,7 @@ This package provides a simple and efficient way to generate unique IDs using ti
 
 ##  Encoding formats
 **Accepted parameters optionsl**
-- use lowercase (recomended) default "hex"
+use lowercase (recomended) default "hex"
 - Hexadecimal (Hex)
 - Base64
 - Binary
