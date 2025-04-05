@@ -1,7 +1,6 @@
 # Unique ID Generator
 
 This package provides a simple and efficient way to generate unique IDs using timestamps, collision handling, and SHA-256 hashing.
-# link: https://www.npmjs.com/package/crypt-uniid
 
 [![npm version](https://badge.fury.io/js/crypt-uniid.svg)](https://www.npmjs.com/package/crypt-uniid) 
 
@@ -10,6 +9,9 @@ This package provides a simple and efficient way to generate unique IDs using ti
 - Generates unique IDs based on system time (in nanoseconds) to ensure uniqueness.
 - Uses SHA-256 hashing for added security and consistency.
 - Can be used across different machines using unique machine IDs for distributed systems.
+
+## Documentation
+- Official documentation github link: https://github.com/mdmarufa/crypt-uniid
 
 ## Password Structure
 
@@ -29,30 +31,28 @@ npm install crypt-uniid
 ```
 
 ## Note
-#======================== Configuration ====================
 MACHIN_ID: The MACHIN_ID should be set in your .env file to ensure that IDs are unique across different machines. The format of the MACHIN_ID should be a string with at least 8 characters, including a mix of uppercase and lowercase letters, numbers, and special characters.
 
 Example .env file:
   MACHIN_ID=Your Password #for unique you machin in distributed system
 
-## If MACHIN_ID is not set correctly or not found in .env file, you will get the following error:
+## Configuaration
+   If MACHIN_ID is not set correctly or not found in .env file, you will get the following error:
     Error: Machine ID not found.
     Message: It's likely that you haven't configured the 'MACHIN_ID' in your environment variables. Please refer to the documentation for more details.
     Code: 9332
     ```
 
 
-#========================= Usage ===================
 1. **Once installed and configured, you can import the package and start generating unique IDs.
-======================== code snipped ================================
+## Use
+```
     require("dotenv").config();
     const { v1 } = require("crypt-uniid");
 
     const uniqueId = v1();
     console.log("Generated Unique ID: ", uniqueId);
-=================================================
+```
 
-
-======================== Error Handling =====================
   1. **If the MACHIN_ID is not set in your .env file or is incorrect, the package will throw a CustomError with a descriptive     message.
   2. **The error message includes guidance to help you configure the MACHIN_ID correctly.
