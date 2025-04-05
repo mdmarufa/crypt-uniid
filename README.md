@@ -27,7 +27,7 @@ To get started, you need to install the package:
 ```bash
 npm install crypt-uniid
 
-
+## Note
 #======================== Configuration ====================
 MACHIN_ID: The MACHIN_ID should be set in your .env file to ensure that IDs are unique across different machines. The format of the MACHIN_ID should be a string with at least 8 characters, including a mix of uppercase and lowercase letters, numbers, and special characters.
 
