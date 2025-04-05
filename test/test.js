@@ -1,10 +1,4 @@
-const { v1 } = require("../lib/index");
+const { v1 } = require("crypt-uniid");
 
-const set = new Set([]);
-console.time("start");
-for (let i = 0; i < 500000; i++) {
-  set.add(v1());
-}
-
-console.log(set.size);
-console.timeEnd("start");
+const uniqueId = v1();
+console.log("Generated Unique ID: ", uniqueId);

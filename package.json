@@ -1,6 +1,6 @@
 {
   "name": "crypt-uniid",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "A secure, efficient, and machine-aware unique ID generator using timestamp, counter, and SHA-256 hashing.",
   "main": "index.js",
   "exports": {
