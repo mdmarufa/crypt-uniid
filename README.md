@@ -10,6 +10,15 @@ This package provides a simple and efficient way to generate unique IDs using ti
 - Uses SHA-256 hashing for added security and consistency.
 - Can be used across different machines using unique machine IDs for distributed systems.
 
+##  Encoding formats
+**Accepted parameters optionsl**
+- use lowercase (recomended) default "hex"
+- Hexadecimal (Hex)
+- Base64
+- Binary
+- Raw (Binary Buffer)
+- Base32
+
 ## Documentation
 - Official documentation github link: https://github.com/mdmarufa/crypt-uniid
 

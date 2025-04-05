@@ -1,4 +1,4 @@
-const { v1 } = require("crypt-uniid");
+const { v1 } = require("../lib/index");
 
-const uniqueId = v1();
+const uniqueId = v1("base32");
 console.log("Generated Unique ID: ", uniqueId);
